@@ -3,15 +3,15 @@
 
 function starWars(jedi, sith, force){
   force(jedi, sith);
-}
+};
 
 function multiply(a,b){
   console.log(a*b)
-}
+};
 
 function battle(good, evil){
   console.log(`The ${evil} are loosing because the ${good} always win!`) 
-}
+};
 
 
 starWars(2, 3, multiply)

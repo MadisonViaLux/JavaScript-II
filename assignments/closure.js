@@ -1,6 +1,23 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
 
+function starWars(jedi, sith, force){
+  force(jedi, sith);
+}
+
+function multiply(a,b){
+  console.log(a*b)
+}
+
+function battle(good, evil){
+  console.log(`The ${evil} are loosing because the ${good} always win!`) 
+}
+
+
+starWars(2, 3, multiply)
+
+starWars("Jedi", "Sith", battle)
+
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 

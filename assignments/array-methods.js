@@ -99,7 +99,27 @@ console.log(ticketPriceTotal);
 // Now that you have used .forEach(), .map(), .filter(), and .reduce().  I want you to think of potential problems you could solve given the data set and the 5k fun run theme.  Try to create and then solve 3 unique problems using one or many of the array methods listed above.
 
 // Problem 1
+// Invoke the email and last name to return the full sentence "Thank you *last_name* for signing up with your email, *email*."
+
+const EndGreet = runners.forEach(client => console.log(`Thank you ${client.last_name} for signing up with your email, ${client.email}`));
+
+console.log(EndGreet);
 
 // Problem 2
+// Invoke the last client with the welcome, "Welcome *first_name* *Last_name* to our humble group!"
+
+const newPersonMsg = runners.filter(function(client) {
+
+    for(let i=0; i > runners.length; i++){
+     
+       if(client === runner.length-1){
+         
+         console.log(`Welcome ${client.first_name} ${client.last_name} to our humble group!`);
+       }
+    }
+});
+
+
+console.log(newPersonMsg); 
 
 // Problem 3
